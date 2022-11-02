@@ -1,0 +1,32 @@
+console.log('........   ........')
+console.log('........   ........')
+console.log('.      .. ..      .')
+console.log('.      .   .      .')
+console.log('.      .. ..      .')
+console.log('.      _____      .')
+console.log('........   ........')
+console.log('........   ........')
+console.log('v1.0')
+console.log('Use however you like ')
+B=['(',')']
+bc=0
+a='(goofysans(gheh))'
+G=[]
+i=0
+while(i<a.length){
+     if(a[i]==B[0]){
+          bc=bc+1
+     }
+     if(a[i]==B[1]){
+          bc=bc-1
+     }
+     if(bc>G.length){
+          G.push('')
+     }
+     G[bc-1]=G[bc-1]+a[i]
+     console.log(bc.toString()+G.toString())
+     i=i+1
+}
+if(bc!=0){
+     console.log('bracket imbalance dectected')
+}
