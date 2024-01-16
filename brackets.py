@@ -1,12 +1,3 @@
-print('........   ........')
-print('........   ........')
-print('.      .. ..      .')
-print('.      .   .      .')
-print('.      .. ..      .')
-print('.      _____      .')
-print('........   ........')
-print('........   ........')
-print('Use however you like, even commercially, this is free software that can be used by anyone ')
 B=['(',')']
 bc=0
 a='(goofysans(garg))'
